@@ -39,6 +39,7 @@ Furthermore, since we have many categorical independant attributes with multiple
 
 
 **3. Outcomes**
+
 KPIs: in our case, we have two values of the target feature which are "True" (Buy) or "False" (Not buy). We will focus on two following scores:
 
 * Precision score: In fact, we are focusing more on people who will not buy the product in order to analyse the factors that could impact on the decision of these customers so that the company can solve issues and make them buy products. Thus, the precision score is a good indicator as it shows if the model is good enough at not considering an actual "not buy" case as a "buy" case.
@@ -52,10 +53,15 @@ Outcommes:
 * The combination of SMOT resampling technique and PCA had the most significant impact on the models than the previous solutions:
     
     Accuracy score: higher than 3rd run for most of model - range [64.8% , 82%]
+        
         Highest rate: Random Forest
+    
     Recall score: much higher - range [63% , 91%]
+        
         Highest rate: KNN
+    
     Precision score: much higher - range [63% , 80.6%]
+        
         Highest rate: Random Forest 
 
 **Please refer to the presentation file and the Jupyter Notebook file for more detailed findings**
