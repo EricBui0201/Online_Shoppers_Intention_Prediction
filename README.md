@@ -17,8 +17,9 @@ Inveon Information Technologies Consultancy and Trade,
 34335 Istanbul, Turkey
 
 
-The dataset consists of feature vectors belonging to 12,330 sessions (rows).
-The dataset was formed so that each session would belong to a different user in a 1-year period to avoid any tendency to a specific campaign, 
+The dataset contain the google analytics information collected from the activity of a shopping online.
+It consists of feature vectors belonging to 12,330 sessions (rows).
+It was formed so that each session would belong to a different user in a 1-year period to avoid any tendency to a specific campaign, 
 special day, user profile, or period.
 
 The dataset consists of 10 numerical and 8 categorical attributes among which the 'Revenue' attribute is used as the class label and is the target feature in our prediction model. (see Jupyter Notebook file for more details)
